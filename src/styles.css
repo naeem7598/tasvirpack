@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  font-family: iranyekan;
+}
+@font-face{
+font-family: iranyekan;
+  src:url("src/assets/font/Yekan.ttf");
+}
+
+a{
+  text-decoration: none!important;
+  color: #5b5b5b;
+  cursor: pointer;
+}

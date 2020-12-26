@@ -1,0 +1,34 @@
+
+<nav class="fixed" id="menu">
+  <div class="container">
+  <label for="tm" id="toggle-menu">Navigation <span class="drop-icon">▾</span></label>
+  <input type="checkbox" id="tm">
+  <ul class="main-menu clearfix">
+    <li routerLink="/"><a >صفحه اصلی</a></li>
+    <li><a>محصولات
+      <span class="fa fa-caret-down"></span>
+      <label title="Toggle Drop-down" class="drop-icon" for="sm1"></label>
+    </a>
+      <input type="checkbox" id="sm1">
+      <ul class="sub-menu">
+        <li *ngFor="let cate of cat"><a routerLink="products/{{cate.id}}">{{cate.title}}
+          <span class="fa fa-caret-left"></span>
+          <label title="Toggle Drop-down" class="drop-icon" for="sm2"></label>
+        </a>
+          <input type="checkbox" id="sm2">
+          <ul class="sub-menu">
+            <li *ngFor="let item of cate.products"><a routerLink="product/{{item.parentID}}">{{item.title}}</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#">تماس با ما</a></li>
+  </ul>
+        <div class="logo">
+          <a>
+            <img src="assets/image/logo.png" style="width: 100px" height="56px">
+          </a>
+        </div>
+  </div>
+</nav>
+

@@ -1,0 +1,35 @@
+<div class="content">
+  <div class="back_img" >
+    <img [src]="category[index].image">
+  </div>
+</div>
+<div class="row content_wrapper">
+  <div class="col-md-4 " *ngFor="let pro of product">
+    <div class="cat-item">
+    <div class="image_frame cat-item">
+      <div class="image_wrapper">
+        <a>
+          <div>
+            <img src="{{pro.image}}" alt="Mike" style="width:100%">
+          </div>
+        </a>
+      </div>
+    </div>
+      <div class="post-desc-wrapper">
+        <div class="post-desc">
+          <div class="post-title">
+            <h2><a (click)="set_product(pro.parentID)">{{pro.title}}</a></h2>
+          </div>
+          <div class="post-footer">
+            <div class="post-links">
+              <a (click)="set_product(pro.parentID)">مشاهده</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+<!--  <router-outlet></router-outlet>-->

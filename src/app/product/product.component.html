@@ -1,0 +1,20 @@
+<div class="content">
+  <div class="back_img" [style.backgroundImage]="'url('+temp[index]?.image+')'">
+  </div>
+</div>
+<div class="row content_wrapper" >
+  <div *ngFor="let pro of temp">
+  <div class="col-lg-3 col-md-4 col-xs-12" *ngFor="let p of pro.chihds">
+    <div class="cat-item">
+    <div class="image_frame" >
+      <div class="image_wrapper">
+        <a>
+            <img src="{{p.image}}" alt="{{p.title}}" style="width:100%">
+
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
