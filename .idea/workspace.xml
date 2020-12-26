@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7cfba995-38f8-4fc0-a400-f295121da976" name="Default Changelist" comment="hello">
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/footer/footer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/header/header.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/header/header.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/header/header.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/home/home.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/home/home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/home/home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/pipes/filter-category.pipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/product/product.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/product/product.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/product/product.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/products/model/category.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/products/model/message.modle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/products/model/product.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/products/products.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/products/products.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/products/products.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/app/service/message.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/.babelrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/.stylelintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/.stylelintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/build/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/build/banner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/build/build-plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/build/change-version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/build/generate-sri.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/build/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/build/rollup.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/build/ship.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/build/svgo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/build/vnu-jar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/build/zip-examples.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/demo/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/demo/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/demo/custom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/css/bootstrap-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/css/bootstrap-rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/css/bootstrap-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/css/bootstrap-rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/index-fa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/alert.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/button.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/carousel.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/collapse.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/dropdown.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/modal.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/popover.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/scrollspy.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/tab.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/toast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/toast.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/tooltip.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/dist/util.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/src/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/src/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/src/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/src/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/src/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/src/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/src/popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/src/scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/src/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/src/toast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/src/tools/sanitizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/src/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/src/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/browsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/integration/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/integration/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/integration/rollup.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/unit/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/unit/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/unit/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/unit/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/unit/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/unit/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/unit/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/unit/popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/unit/scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/unit/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/unit/toast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/unit/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/unit/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/visual/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/visual/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/visual/carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/visual/collapse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/visual/dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/visual/modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/visual/popover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/visual/scrollspy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/visual/tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/visual/toast.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/js/tests/visual/tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/package.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/bootstrap-rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_interactions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/bootstrap-v4-rtl-master/scss/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font/Iranian Sans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font/Yekan.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/font/Yekan.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/17accc10-6e9f-4cf4-95c6-0b54bac9575b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/20181211171355cat1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/Changeable-side-pizza-box.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/DSC_8672-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/Types-of-website-image-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/bg8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/17accc10-6e9f-4cf4-95c6-0b54bac9575b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/Changeable-side-pizza-box.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/karton-laminti/118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/karton-laminti/119.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/karton-laminti/120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/karton-laminti/121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/karton-laminti/122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/karton-laminti/123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/karton-laminti/124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/karton-laminti/125.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/karton-laminti/126.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/karton-laminti/127.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/karton-laminti/128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/pitza/Pizza-Box-Template.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/pitza/download (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/pitza/pizza-box-isolated-on-white-background-design-vector-28646072.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/pitza/portfolio-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/sandevich/S102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/sandevich/S104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/sandevich/S105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/sandevich/S107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/sandevich/S108-S109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/product/sandevich/S111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/slider/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/slider/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasvirpack/src/assets/image/slider/slider-18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasvirpack/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/tasvirpack/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasvirpack/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/tasvirpack/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasvirpack/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tasvirpack/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasvirpack/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tasvirpack/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasvirpack/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tasvirpack/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasvirpack/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/tasvirpack/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasvirpack/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasvirpack/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasvirpack/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasvirpack/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tasvirpack/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasvirpack/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tasvirpack/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasvirpack/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasvirpack/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasvirpack/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/tasvirpack/src/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/tasvirpack" />
+  </component>
+  <component name="ProjectId" id="1jgJz0Llijoa3E495MWsFcxIk60" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="ts.external.directory.path" value="C:\Users\armeh09106710072\Desktop\tasvirpack\tasvirpack\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cfba995-38f8-4fc0-a400-f295121da976" name="Default Changelist" comment="" />
+      <created>1604220059258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604220059258</updated>
+      <workItem from="1604220060305" duration="12177000" />
+      <workItem from="1604293988859" duration="19272000" />
+      <workItem from="1604466824194" duration="16847000" />
+      <workItem from="1604727477237" duration="619000" />
+      <workItem from="1604732086555" duration="10292000" />
+      <workItem from="1604812260495" duration="17496000" />
+      <workItem from="1604896867996" duration="26157000" />
+      <workItem from="1604985260669" duration="24651000" />
+      <workItem from="1605070519472" duration="19146000" />
+      <workItem from="1605165010873" duration="1321000" />
+      <workItem from="1605329427419" duration="4789000" />
+      <workItem from="1605417129040" duration="1982000" />
+      <workItem from="1605419964886" duration="13835000" />
+      <workItem from="1605442151300" duration="964000" />
+      <workItem from="1605502899672" duration="9810000" />
+      <workItem from="1605589586143" duration="22835000" />
+      <workItem from="1605676233887" duration="13784000" />
+      <workItem from="1605770575368" duration="7235000" />
+      <workItem from="1605805197300" duration="37000" />
+      <workItem from="1605805235490" duration="1355000" />
+      <workItem from="1605767888584" duration="673000" />
+      <workItem from="1605771762348" duration="1287000" />
+      <workItem from="1605774520981" duration="128000" />
+      <workItem from="1605774824387" duration="625000" />
+      <workItem from="1605807622264" duration="3432000" />
+      <workItem from="1605903585155" duration="11783000" />
+      <workItem from="1606063884553" duration="586000" />
+      <workItem from="1606121613827" duration="5036000" />
+      <workItem from="1606315986151" duration="2924000" />
+      <workItem from="1606324565641" duration="2043000" />
+      <workItem from="1606393002965" duration="4626000" />
+      <workItem from="1606735183520" duration="1743000" />
+      <workItem from="1606758366652" duration="1943000" />
+      <workItem from="1608197850826" duration="201000" />
+      <workItem from="1608800086549" duration="883000" />
+      <workItem from="1608822505421" duration="819000" />
+      <workItem from="1608824491780" duration="1774000" />
+      <workItem from="1608826363977" duration="531000" />
+      <workItem from="1608880107115" duration="2015000" />
+      <workItem from="1608979393970" duration="407000" />
+      <workItem from="1608979880507" duration="1280000" />
+      <workItem from="1608981591522" duration="1769000" />
+      <workItem from="1608983416390" duration="727000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hello" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="21" key="#Deployment" timestamp="1606320040475">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="21" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1606320040475" />
+    <state x="416" y="0" key="CommitChangelistDialog2" timestamp="1608983477137">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="416" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608983477137" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604823639737" />
+    <state x="526" y="192" key="FileChooserDialogImpl" timestamp="1606320487219">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="526" y="192" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606320487219" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604994219089" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1606320469130">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606320469130" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1606326237163">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606326237163" />
+    <state x="666" y="208" width="587" height="624" key="find.popup" timestamp="1604994857689">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="208" width="587" height="624" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604994857689" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1605440252143">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605440252143" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605991021772">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605991021772" />
+  </component>
+</project>
