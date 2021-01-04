@@ -17,6 +17,7 @@
 .main-navigation{
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
   max-width: 70%;
   margin: 0 auto;
@@ -30,8 +31,11 @@
 li {
   list-style-type: none;
   text-transform: uppercase;
+  direction: rtl;
 }
-
+ul{
+  direction: rtl;
+}
 li a {
   display: flex;
   text-align: center;
@@ -48,7 +52,6 @@ nav ul li:hover > ul {
   flex-direction: column;
   position: absolute;
   padding-right: 0;
-
 }
 nav ul li ul li:hover > ul {
   right: 100%;
@@ -65,7 +68,7 @@ nav ul li ul li:hover > ul {
 }
 .sub-menu li {
   display: flex;
-  padding-right: 2em;
+  padding-left: 2em;
 
 }
 
