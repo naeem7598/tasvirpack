@@ -19,7 +19,6 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     this.cat=JSON.parse(localStorage.getItem("cat"));
- console.log(this.cat)
     window.onscroll = function () {
       var prevScrollpos = window.pageYOffset;
       var element = document.getElementById("menu");
