@@ -7,6 +7,8 @@
 }
 .section1{
   padding: 0!important;
+  /*z-index: -1;*/
+
 }
 .mall-slide .slid-content {
   width: 100%;
@@ -82,24 +84,14 @@ section {
 }
 
 .image_wrapper img{
-max-width: 100%
+  max-width: 100%
 }
 @media only screen and (max-width: 600px)  {
-  .mall-slide .slid-content{
+  .mall-slide img{
     height: 200px;
   }
 }
-.swiper-container {
+.image{
   width: 100%;
-}
-
-.swiper-slide {
-  background-size: cover;
-  background-position: 50%;
-  min-height: 80vh;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  height: 700px;
 }
