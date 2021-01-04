@@ -19,6 +19,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     this.cat=JSON.parse(localStorage.getItem("cat"));
+    console.log(this.cat)
     window.onscroll = function () {
       var prevScrollpos = window.pageYOffset;
       var element = document.getElementById("menu");
@@ -31,28 +32,20 @@ export class HeaderComponent implements OnInit {
     }
   }
 
-getID(){
-console.log(this.cat)
-  // this.temp = this.temp.filter(p =>p.categoryID == id)
-  // console.log('fgsgrsdgwe'+this.temp)
-}
-
-
-  showmenu() {
-    var x = document.getElementById("res-menu");
-    var a = document.getElementById('menu-res')
-    if (x.style.display === "none") {
-      x.style.display = "block";
-
-    } else {
-      x.style.display = "none";
-    }
-    if (a.style.background === "none") {
-      a.style.background = "white"
-    } else {
-      a.style.background = "none"
-    }
+  getID(){
+    console.log(this.cat)
+    // this.temp = this.temp.filter(p =>p.categoryID == id)
+    // console.log('fgsgrsdgwe'+this.temp)
   }
+  toggleMobileMenu() {
+    const navUl = document.querySelector(".menu");
+    navUl.classList.toggle("hide-ul");
+  }
+  show_menu(){
+    // const navButton = document.querySelector("#nav-menu-button");
+    this.toggleMobileMenu();
+  }
+
   stop_route(e){
     e.stopPropagation()
   }
