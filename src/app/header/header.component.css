@@ -40,8 +40,16 @@ li a {
   display: flex;
   text-align: center;
   text-decoration: none;
-  color: #777;
+  color: #1b1e21;
   padding: 1rem;
+  font-size: 13px;
+}
+li a p {
+  padding-left: 7px;
+}
+li a i {
+  padding-top: 4px;
+  font-size: 16px;
 }
 nav ul ul {
   display: none;
@@ -73,8 +81,7 @@ nav ul li ul li:hover > ul {
 }
 
 .sub-menu li:hover, li a:hover {
-  background: #ddd;
-  color: #777;
+  color: #c7b514;
 }
 .logo img{
   width: 100px;

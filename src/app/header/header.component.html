@@ -5,11 +5,15 @@
       <ul class="menu hide-ul ">
         <li class="first-child" routerLink="/"><a>صفحه اصلی</a></li>
         <li class="first-child"><a>
-          محصولات
-          <i class="fa fa"></i>
+          <p>محصولات</p>
+          <i class="fa fa-angle-down " ></i>
         </a>
+
           <ul class="sub-menu">
-            <li class="second-child" *ngFor="let cate of cat"><a routerLink="products/{{cate.id}}">{{cate.title}}</a>
+            <li class="second-child" *ngFor="let cate of cat"><a routerLink="products/{{cate.id}}">
+              <p>{{cate.title}}</p>
+              <i class="fa fa-angle-left "></i>
+            </a>
               <ul class="sub-menu">
                 <li class="three-child" *ngFor="let item of cate.products"><a
                   routerLink="product/{{item.parentID}}">{{item.title}}</a></li>
